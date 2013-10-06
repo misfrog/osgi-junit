@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: com.misfrog.osgi.junit.test
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: MISFROG
+Fragment-Host: com.misfrog.osgi.junit;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.junit;bundle-version="4.11.0"
+Import-Package: com.misfrog.osgi.junit
